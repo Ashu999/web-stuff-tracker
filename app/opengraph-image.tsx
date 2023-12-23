@@ -26,8 +26,10 @@ export default async function OG() {
         }}
       >
         <img
-          src={`https://${process.env.VERCEL_URL || "precedent.dev"}/logo.png`}
-          alt="Precedent Logo"
+          src={`https://${
+            process.env.VERCEL_URL || "web-stuff-tracker.vercel.app"
+          }/logo.png`}
+          alt="Web STuff Tracker Logo"
           tw="w-20 h-20 mb-4 opacity-95"
         />
         <h1
@@ -42,7 +44,7 @@ export default async function OG() {
             letterSpacing: "-0.02em",
           }}
         >
-          Precedent
+          Web Stuff Tracker
         </h1>
       </div>
     ),

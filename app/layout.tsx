@@ -7,10 +7,10 @@ import Footer from "@/components/layout/footer";
 import { Suspense } from "react";
 
 export const metadata = {
-  title: "Precedent - Building blocks for your Next.js project",
+  title: "Web Stuff Tracker",
   description:
-    "Precedent is the all-in-one solution for your Next.js project. It includes a design system, authentication, analytics, and more.",
-  metadataBase: new URL("https://precedent.dev"),
+    "Track values of HTML/JS Web elements, get notified when value changes",
+  metadataBase: new URL("https://web-stuff-tracker.vercel.app"),
   themeColor: "#FFF",
 };
 
